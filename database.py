@@ -1,5 +1,4 @@
 from sqlalchemy import create_engine, text
-import json
 engine = create_engine(
     "mysql+pymysql://root:@localhost/tone_careers?charset=utf8mb4"
 )
